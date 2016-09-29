@@ -17,7 +17,7 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final Button boton = (Button)findViewById(R.id.btnIngresar);
-        final TextView registroLink = (TextView) findViewById(R.id.txtRegistrarAqui);
+        //final TextView registroLink = (TextView) findViewById(R.id.txtRegistrarAqui);
 
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,14 +37,14 @@ public class Login extends AppCompatActivity {
             }
         });
 
-        registroLink.setOnClickListener(new View.OnClickListener() {
+/*        registroLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent RegistroIntent = new Intent(Login.this,Registro.class);
                 Login.this.startActivity(RegistroIntent);
 
             }
-        });
+        });*/
 
 
     }
