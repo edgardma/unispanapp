@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="120dp"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:id="@+id/obraCardView">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pictureEmpresa"
+            android:src="@mipmap/ic_launcher"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"/>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="start"
+                android:text="Los Constructores SAC"
+                android:id="@+id/empresaTextView"
+                android:paddingLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:layout_gravity="start"
+                android:text="(01) 42344455"
+                android:id="@+id/numeroTextView"
+                android:paddingLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:layout_gravity="start"
+                android:text="SaldoPendiente"
+                android:id="@+id/EstadoPendienteTextView"
+                android:paddingLeft="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
